@@ -8,3 +8,9 @@ declare module '*.svg' {
   const url: string;
   export default url;
 }
+
+declare interface LayoutProps {
+  children: React.ReactNode;
+  history: any;
+  location: any;
+}
